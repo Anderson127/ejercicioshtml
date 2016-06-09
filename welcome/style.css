@@ -1,0 +1,23 @@
+body{
+  background-color: #edeff0;
+  font-family: 'Helvetica Neue';
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1{
+  color: #384047;
+  font-size: 28px;
+}
+
+p{
+  color: #b2bac2;
+}
+
+.contenedor{
+  background-color: white;
+  width: 700px;
+  margin-left: 425px;
+  margin-top: 50px;
+  padding: 30px;
+}

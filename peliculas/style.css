@@ -1,0 +1,19 @@
+a{
+
+}
+
+body {
+	color: #333;
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+header {
+	background-color: whitesmoke;
+	border: 1px;
+	color: #ddd;
+
+img {
+	width: 100px;
+}
