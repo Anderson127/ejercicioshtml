@@ -18,8 +18,8 @@
         <a class="navbar-brand" href="#">misfinanzas</a>
       </div>
       <ul class="nav navbar-nav">
-        <li><a href="#"><span class="glyphicon glyphicon-speed"></span>Resumen</a></li>
-        <li class="active"><a href="#">Transacciones</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-speedmeter"></span>Resumen</a></li>
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-list"></span> Transacciones</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Salir</a></li>
@@ -44,8 +44,39 @@
         </ul>
       </div>
       <div class="col-md-9">
-        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-plus"> Nueva Transacción</span></button>
+        <table class="table">
+          <thead>
+            <tr>
+              <td><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-plus"> Nueva Transacción</span></button></td>
+              <td>
+                <div class="dropdown lista">
+                  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Agosto 2014<span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Cosa1</a></li>
+                    <li><a href="#">Cosa2</a></li>
+                    <li><a href="#">Cosa3</a></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ago Gasto <button type="button" class="btn btn-info">Hogar</button><br> 26 Arriendo</td>
+              <td id="hoy">$900,000<br><span class="glyphicon glyphicon-edit">Editar</span> <span class="glyphicon glyphicon-trash">Eliminar</span></td>
+            </tr>
+            <tr>
+              <td>Ago Gasto <button type="button" class="btn btn-info">Restaurante</button><br> 25 El Rincón de mi tierra</td>
+              <td id="hoy">$120,000<br><span class="glyphicon glyphicon-edit">Editar</span> <span class="glyphicon glyphicon-trash">Eliminar</span></td>
+            </tr>
+            <tr>
+              <td>Ago Ingreso<br> 24 Salario</td>
+              <td id="hoy">$4'500,000<br><span class="glyphicon glyphicon-edit">Editar</span> <span class="glyphicon glyphicon-trash">Eliminar</span></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+     </div>
     </div>
   </div>
 </body>
