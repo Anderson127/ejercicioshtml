@@ -18,7 +18,7 @@
         <a class="navbar-brand" href="#">misfinanzas</a>
       </div>
       <ul class="nav navbar-nav">
-        <li><a href="#"><span class="glyphicon glyphicon-speedmeter"></span>Resumen</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-dashboard"></span> Resumen</a></li>
         <li class="active"><a href="#"><span class="glyphicon glyphicon-list"></span> Transacciones</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -29,9 +29,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <input type="text" id="search" placeholder="Buscar"><button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+        <input type="text" id="search" placeholder="Buscar"><button class="btn btn-default" id="boton"><span class="glyphicon glyphicon-search"></span></button>
         <ul class="list-group">
-          <li class="list-group-item">Ingresos</li>
+          <li class="list-group-item" id="lista">Ingresos</li>
           <li class="list-group-item">Gastos</li>
         </ul>
 
@@ -62,16 +62,16 @@
           </thead>
           <tbody>
             <tr>
-              <td>Ago Gasto <button type="button" class="btn btn-info">Hogar</button><br> 26 Arriendo</td>
-              <td id="hoy">$900,000<br><span class="glyphicon glyphicon-edit">Editar</span> <span class="glyphicon glyphicon-trash">Eliminar</span></td>
+              <td>Ago Gasto <button type="button" class="btn btn-info">Hogar</button><br><h3><b>26</b></h3> <p>Arriendo</p></td>
+              <td id="hoy"><b>$900,000</b><br><span class="glyphicon glyphicon-edit">Editar</span> <span class="glyphicon glyphicon-trash">Eliminar</span></td>
             </tr>
             <tr>
-              <td>Ago Gasto <button type="button" class="btn btn-info">Restaurante</button><br> 25 El Rincón de mi tierra</td>
-              <td id="hoy">$120,000<br><span class="glyphicon glyphicon-edit">Editar</span> <span class="glyphicon glyphicon-trash">Eliminar</span></td>
+              <td>Ago Gasto <button type="button" class="btn btn-info">Restaurante</button><br><h3><b>25</b></h3> <p>El Rincón de mi tierra</p></td>
+              <td id="hoy"><b>$120,000</b><br><span class="glyphicon glyphicon-edit">Editar</span> <span class="glyphicon glyphicon-trash">Eliminar</span></td>
             </tr>
             <tr>
-              <td>Ago Ingreso<br> 24 Salario</td>
-              <td id="hoy">$4'500,000<br><span class="glyphicon glyphicon-edit">Editar</span> <span class="glyphicon glyphicon-trash">Eliminar</span></td>
+              <td>Ago Ingreso<br><h3><b>24</b></h3> <p>Salario</p></td>
+              <td id="hoy"><b>$4'500,000</b><br><span class="glyphicon glyphicon-edit">Editar</span> <span class="glyphicon glyphicon-trash">Eliminar</span></td>
             </tr>
           </tbody>
         </table>

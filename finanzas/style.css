@@ -1,7 +1,46 @@
+
+h3{
+  margin-top: 0px;
+}
+
+input{
+  padding-right: 145px;
+}
+
+p{
+  color: black;
+  margin-left: 35px;
+  margin-top: -35px;
+ }
+
+td{
+  color: #b2bac2;
+}
+
+.btn-info{
+  padding: 0px 3px;
+}
+
+.container{
+  width: 1450px;
+}
+
 .lista{
   text-align: right;
+}
+
+#boton{
+ margin-left: 290px;
+ margin-top: -30px;
 }
 
 #hoy{
   text-align: right;
 }
+
+#lista{
+  margin-top: 20px;
+}
+
+
+
