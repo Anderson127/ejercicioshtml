@@ -1,38 +1,22 @@
 table {
-	border: 1px solid blue;
+	border: 1px solid black;
 	margin: auto;
-
+	width: 100%;
 }
 
 table th {
-	background-color: red;
-	border: 1px solid blue;
+	border: 1px solid black;
 	font-family: Arial;
 
 }
 
 table tr td {
-	background-color: white;
-	border: 1px solid blue;
+	border: 1px solid black;
 	font-family: Arial;
 	text-align: center;
 }
 
 h1 {
-	color: blue;
 	font-family: Arial;
 	text-align: center;
-}
-
-body {
-	background-color: gray;
-}
-
-img {
-	align-content: center;
-}
-
-.square{
-	border: 1px solid black;
-	margin: 10px;
 }
