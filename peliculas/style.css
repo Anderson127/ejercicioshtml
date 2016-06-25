@@ -1,41 +1,4 @@
 body {
-	color: #333;
-	font-family: 'Helvetica Neue';
-	font-size: 16px;
-	line-height: 1.6;
-}
+  font-size: 50px; }
 
-header {
-	background-color: whitesmoke;
-	border-bottom: 1px solid #ddd;
-}
-
-div{
-  margin:10px;
-}
-
-
-img{
-  border-radius: 5px;
-  width: 100px;
-}
-
-.trailer{
-  background-color: whitesmoke;
-  border:1px solid gray;
-  border-radius: 10px;
-  display: inline-block;
-  height: 250px;
-  line-height: 0.5;
-  padding-top: 30px;
-  text-align: center;
-  width: 200px;
-}
-
-div p{
-  color: gray;
-}
-
-a:link{
-  text-decoration:none;
-}
+/*# sourceMappingURL=style.css.map */
