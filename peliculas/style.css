@@ -1,4 +1,36 @@
-body {
-  font-size: 50px; }
+body{
+  color: #333;
+  font-family: 'Helvetica Neue';
+  font-size: 16px;
+  line-height: 1.6;
+}
 
-/*# sourceMappingURL=style.css.map */
+header{
+  background-color: whitesmoke;
+  border-bottom: 1px solid #ddd;
+}
+
+.trailer{
+  background-color: whitesmoke;
+  border-radius: 5%;
+  display: inline-block;
+  height: 225px;
+  line-height: 0.5;
+  margin-top: 20px;
+  margin-left:30px;
+  padding: 20px;
+  text-align: center;
+  width: 150px;
+}
+
+img{
+  width: 100px;
+}
+
+.fecha{
+  color: gray;
+}
+
+a:link{
+  text-decoration:none;
+}
