@@ -1,0 +1,140 @@
+body{
+    background: #fff;
+}
+header{
+    padding: 20px;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background: #fff;
+    top: 0;
+}
+header .idioma{
+    text-align: right;
+}
+.btn-default{
+    border:none;
+    background-color: transparent !important;
+}
+.btn-default:hover, .btn-default:active{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.btn-default span{
+    margin-left: 13px !important;
+    margin-top: 5px;
+    display: block;
+}
+ul.dropdown-menu{
+    left: 42px;
+    padding: 0px;
+    min-width: 59px;
+    border:none;
+    box-shadow: none;
+}
+ul.dropdown-menu a{
+    padding: 3px 17px;
+}
+header .link1{
+    text-align: right;
+}
+header .link1 ul{
+    padding-left: 0px;
+}
+header .link1 ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+header .link1 ul li:nth-child(1){
+    border-right: 1px solid #1F1F1F;
+}
+header .link1 ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #1F1F1F;
+}
+
+header .logo{
+    text-align: center;
+}
+
+header .link2{
+    text-align: right;
+}
+header .link2 ul{
+    padding-left: 0px;
+}
+header .link2 ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+header .link2 ul li:nth-child(1){
+    border-right: 1px solid #000;
+}
+header .link2 ul li:nth-child(2){
+    border-right: 1px solid #000;
+}
+header .link2 ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #1F1F1F;
+}
+section.bg_body{
+    height: 30em;
+    width: 100%;
+    margin-top: 3.5em;
+    padding: 0 2em;
+    box-sizing: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 10%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(images/bg_body.png);
+}
+section.bg_body .titulo{
+    font-size: 4.5em;
+    line-height: 1em;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Hind', sans-serif !important;
+}
+section.bg_body .subtitulo{
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Hind', sans-serif !important;
+}
+.botones{
+    text-align: center;
+    margin-top: -3em;
+    margin-bottom: 5em;
+}
+.botones a{
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #727176;
+    transition: all 0.2s;
+    margin: 1em;
+    font-size: 1.2em;
+}
+.botones .btn1{
+    background-color:#fff !important;
+    font-family: 'Hind', sans-serif !important;
+}
+.botones .btn1:hover{
+    box-shadow: 0 0 5px #727176 !important;
+    background-color:#e5e5e5 !important;
+}
+.botones .btn2{
+    background-color:#64B0D2 !important;
+    color: #fff;
+    box-shadow: none !important;
+    font-family: 'Hind', sans-serif !important;
+}
+.botones .btn2:hover{
+    background-color:#4b8eaa !important;
+}
+div.caja{
+    height: 200px;
+}
