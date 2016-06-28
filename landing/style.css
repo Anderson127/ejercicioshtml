@@ -90,7 +90,7 @@ section.bg_body{
     background-attachment: fixed;
     color: white;
     padding: 10%;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(imges/bg_body.png);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(images/bg_body.png);
 }
 section.bg_body .titulo{
     font-size: 4.5em;
